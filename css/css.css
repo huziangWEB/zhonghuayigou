@@ -110,6 +110,7 @@ img{ display:block; width:100%; height:auto;}
 	width: 1238px;
 	margin-left: -18px;
 	overflow: hidden;
+	padding-bottom: 5px;
 }
 .index-floor2 ul li{
 	width: 592px;
@@ -119,4 +120,101 @@ img{ display:block; width:100%; height:auto;}
 	margin-top: 20px;
 	-moz-box-shadow: 3px 5px 10px rgba(0,0,0,.2);
 	box-shadow: 3px 5px 10px rgba(0,0,0,.2);
+}
+.index-floor3{
+	width: 100%;
+	position: relative;
+	min-width: 1200px;
+}
+.index-floor3 .bg{
+	width: 100%;
+	height: 550px;
+	background: #ebebeb;
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	z-index: -1;
+}
+.index-floor3 .tit{
+	width: 353px;
+	height: 122px;
+	margin-top: 100px;
+}
+.index-floor4 .tit{
+	width: 207px;
+	height: 121px;
+	margin-top: 120px;
+}
+.index-floor4 ul{
+	width: 1240px;
+	height: auto;
+	overflow: hidden;
+	margin-left: -40px;
+	margin-top: 40px;
+}
+.index-floor4 ul li{
+	width: 580px;
+	height: auto;
+	padding: 20px 0;
+	border-top: 1px #ddd solid;
+	float: left;
+	margin-left: 40px;
+}
+.index-floor4 ul li a img{
+	width: 220px;
+	height: 145px;
+	float: left;
+}
+.index-floor4 ul li a dl{
+	margin-top: 5px;
+	float: right;
+	margin-left: 20px;
+	width: 340px;
+}
+.index-floor4 ul li a dl dt{
+	font-size: 16px;
+	color: #333;
+	height: 16px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 16px;
+	white-space: nowrap;
+}
+.index-floor4 ul li a dl dd{
+	font-size: 14px;
+	color: #666;
+	height: 80px;
+	line-height: 20px;
+	margin-top: 14px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.index-floor4 ul li a dl span{
+	font-size: 12px;
+	color: #999;
+	margin-right: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.index-floor4 .more{
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	border: 1px #ccc solid;
+	border-radius: 20px;
+	padding: 8px 40px;
+	margin: 0 auto;
+	margin-top: 50px;
+
+
+}
+.bottom{
+	width: 100%;
+	height: 150px;
+	background: #ccc;
+	margin-top: 60px;
 }

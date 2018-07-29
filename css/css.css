@@ -1,0 +1,122 @@
+/* CSS Document */
+*{ margin:0px; padding:0px}
+body, ol, ul,li, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family:"微软雅黑";
+}
+a {text-decoration: none; font-family:Arial, Helvetica, sans-serif; color:#333; font-family:"微软雅黑"; display:block;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+input{-webkit-appearance: none; display:block; border:none; outline:none; }
+textarea{-webkit-appearance: none; display:block; border:none; outline:none; }
+span{ font-family:"微软雅黑";}
+button{ border:none;  font-family:Arial, Helvetica, sans-serif;}
+li, dl, dt, dd{list-style-type: none;}
+select{ text-decoration:none; display:block; appearance:none; -moz-appearance:none; -webkit-appearance:none;outline:none;}
+area{ display:block; cursor:pointer;}
+img{ display:block; width:100%; height:auto;}
+
+
+.w{
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.head{
+	padding: 20px 0;
+}
+.logo{
+	width: 205px;
+	height: 57px;
+	float: left;
+}
+.nav{
+	float: right;
+}
+.nav ul li{
+	display: inline-block;
+	padding: 0 30px;
+}
+.nav ul li a{
+	font-size: 16px;
+	line-height: 57px;
+	color: #333;
+}
+.nav ul li a:hover{
+	color: #0ca5df;
+}
+.nav-active{
+	color: #0ca5df !important;
+}
+.tit{
+	margin: 40px auto 30px;
+}
+.index-floor1 .tit{
+	width: 308px;
+	height: 121px;
+}
+.index-floor1-con{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.index-floor1-con-f{
+	width: 650px;
+	height: 294px;
+	float: left;
+	position: relative;
+}
+.index-floor1-con-r{
+	width: 497px;
+	float: right;
+}
+.index-floor1-con .about-tit{
+	font-size: 24px;
+	color: #0da2dd;
+	margin-top: 10px;
+}
+.index-floor1-con .about-text{
+	font-size: 14px;
+	line-height: 26px;
+	color: #333;
+	margin-top: 20px;
+}
+.index-floor1-con .more{
+	font-size: 12px;
+	color: #666;
+	border: 1px #ccc solid;
+	border-radius: 20px;
+	padding: 5px 40px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.index-floor2{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: url('../img/index-floor2-bg.png') no-repeat center;
+}
+.index-floor2 .tit{
+	width: 241px;
+	height: 128px;
+	margin-top: 180px;
+}
+.index-floor2 ul{
+	width: 1238px;
+	margin-left: -18px;
+	overflow: hidden;
+}
+.index-floor2 ul li{
+	width: 592px;
+	height: 250px;
+	float: left;
+	margin-left: 18px;
+	margin-top: 20px;
+	-moz-box-shadow: 3px 5px 10px rgba(0,0,0,.2);
+	box-shadow: 3px 5px 10px rgba(0,0,0,.2);
+}

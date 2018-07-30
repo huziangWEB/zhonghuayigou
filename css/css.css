@@ -218,3 +218,28 @@ img{ display:block; width:100%; height:auto;}
 	background: #ccc;
 	margin-top: 60px;
 }
+
+
+.dqwz{ width: 900px; height: 40px; font-size: 12px; line-height: 40px; border-bottom: 1px #ccc solid; color: #666; margin-top: 50px;}
+.dqwz a{ display: inline-block; color: #333; margin: 0 10px;}
+.gsjj-f{ width: 241px; height: auto; float: left; }
+.gsjj-f .tit{ width: 241px; height: 128px; margin-bottom: 0;}
+.gsjj-f ul li{ width: 241px; height: 45px;  border-bottom: 1px #ccc solid;}
+.gsjj-f ul li a{ background: #e6e6e6; color: #333; font-size: 14px; text-align: center; line-height: 45px; }
+.gsjj-f-a-active{ background: #0da2dd !important; color: #fff !important; }
+.gsjj-f ul li a:hover{ background: #0da2dd !important; color: #fff !important; }
+.gsjj-r{ width: 900px; height: auto; float: right; }
+.gsjj-r-con{ margin-top: 30px; }
+.gsjj-img1{ width: 497px; height: 294px; }
+.gsjj-r-con p{ font-size: 14px; line-height: 26px; color: #666; margin-top: 20px; }
+.gsjj-r .more{
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	border: 1px #ccc solid;
+	border-radius: 20px;
+	padding: 8px 40px;
+	margin: 0 auto;
+	margin-top: 50px;
+}

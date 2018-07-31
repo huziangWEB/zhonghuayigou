@@ -243,3 +243,11 @@ img{ display:block; width:100%; height:auto;}
 	margin: 0 auto;
 	margin-top: 50px;
 }
+.shehuizhaopin{ width:900px; height:auto; margin:0 auto; overflow:hidden; margin-top:40px;}
+.shehuizhaopin img{ display:block;}
+.shehuizhaopin_tb{ width:900px; height:40px; background:#0da2dd; line-height:40px; display:block; color:#fff; font-size:14px;}
+.shehuizhaopin_tb span{ display:block; float:left; text-align:center; width:180px;}
+
+.shehuizhaopin_tbspan05{ color:#0da2dd;}
+.shehuizhaopin_list{ width:900px; height:60px; line-height:60px; display:block; color:#333; font-size:12px; border-bottom:1px #e6e6e6 solid;}
+.shehuizhaopin_list span{ display:block; float:left; text-align:center; width:180px;}
